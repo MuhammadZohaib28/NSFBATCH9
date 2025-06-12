@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+}
+
+.admin-heading {
+  color: purple;
+  text-align: center;
+}
+
+p {
+  border: 1px solid red;
+
+  margin: 16px;
+  padding: 20px;
+}
+
+.form-section {
+  margin: 0 20%;
+}
+
+.sub-heading {
+  text-align: center;
+  width: 100%;
+}
+
+
+form {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+label {
+    color: rgb(41, 41, 41);
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.dhac{
+    margin: 10px auto;
+}
+
+button {
+    background-color: rgb(30, 152, 245);
+    padding: 12px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    color: white;
+}
