@@ -95,7 +95,7 @@
   background-size: 60rem;
   background-repeat: no-repeat;
   height: 100%;
-  width: 100%;;
+  width: 100%;
 }
 
 footer {
@@ -110,4 +110,45 @@ footer {
 .text-2 span {
   color: seagreen;
   font-weight: 600;
+}
+
+.about-section {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 100%;
+  padding: 2rem 4rem;
+  gap: 2rem;
+}
+
+.bottom-cotainer {
+  /* display: flex; */
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 5rem;
+}
+
+.bottom-left-side {
+  flex: 2;
+}
+
+.bottom-right-side {
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.bottom-right-side img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.about-me-heading {
+  font-size: 3rem;
+}
+
+.bottom-left-side p {
+  font-size: 1.6rem;
 }
