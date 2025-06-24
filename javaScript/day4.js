@@ -67,7 +67,7 @@ let typedPassword = "123";
 
 if (typedEmail === dbEmail && typedPassword === dbPassword) {
   console.log("Login successful");
-} else if (!typedEmail === dbEmail) {
+} else if (typedEmail !== dbEmail) {
   console.log("Email does not exist");
 } else {
   console.log("Invalid Credentials");
