@@ -251,7 +251,7 @@ classData.pop();
 classData.shift();
 
 classData.unshift("Zafar", "Naimatullah", "Habibullah");
-classData.sort(); 
+classData.sort();
 
 for (let i = 0; i <= classData.length - 1; i++) {
   console.log(classData[i]);
